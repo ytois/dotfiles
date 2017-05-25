@@ -1,0 +1,27 @@
+# Ignore editor or IDE files
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+/.idea/
+/*.iml
+/.project
+/.vscode
+
+# Ignore OS cache files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+/tags
+
+/.vim/dein

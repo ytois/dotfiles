@@ -1,0 +1,80 @@
+[[plugins]]
+repo = 'scrooloose/syntastic'
+hook_add = 'source ~/.vim/setting/plugins/syntastic.vim'
+
+[[plugins]]
+repo = 'Shougo/vimproc'
+
+[[plugins]]
+repo = 'Shougo/vimshell.vim'
+hook_add = 'source ~/.vim/setting/plugins/vimshell.vim'
+
+[[plugins]] # ファイル検索
+repo = "ctrlpvim/ctrlp.vim"
+
+# theme
+# [[plugins]]
+# repo = 'kristijanhusak/vim-hybrid-material'
+# [[plugins]]
+# repo = 'w0ng/vim-hybrid'
+
+# indent setting
+[[plugins]]
+repo = 'nathanaelkane/vim-indent-guides'
+hook_add = 'source ~/.vim/setting/plugins/vim-indent-guides.vim'
+
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+hook_add = 'source ~/.vim/setting/plugins/nerdtree.vim'
+
+[[plugins]] # スペース表示
+repo = 'bronson/vim-trailing-whitespace'
+
+[[plugins]] # ステータスバー カラー表示
+repo = 'itchyny/lightline.vim'
+hook_add = 'source ~/.vim/setting/plugins/lightline.vim'
+
+[[plugins]] # カレント行の関数名表示
+repo = 'majutsushi/tagbar'
+
+# SQL
+# [[plugins]]
+# repo = 'vim-scripts/dbext.vim'
+
+# 移動高速化
+# [[plugins]]
+# repo = 'deris/vim-gothrough-jk'
+
+[[plugins]] # Twitter
+repo = 'vim-scripts/TwitVim'
+hook_add = 'source ~/.vim/setting/plugins/twitvim.vim'
+
+[[plugins]] # Rails
+repo = 'tpope/vim-rails'
+
+[[plugins]] # 複数行コメントアウト
+repo = 'tomtom/tcomment_vim'
+
+[[plugins]] # カッコ操作
+repo = 'vim-scripts/surround.vim'
+
+[[plugins]] # コード整形
+repo = 'junegunn/vim-easy-align'
+hook_add = 'source ~/.vim/setting/plugins/easy-align.vim'
+
+[[plugins]] # 単語の複数選択
+repo = 'terryma/vim-multiple-cursors'
+
+# ------ Git ------
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+hook_add = 'autocmd QuickFixCmdPost *grep* cwindow' # grep後にQuickFix表示
+
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
+# --------------------
+
+[[plugins]] # キーマッピング用
+repo = 'kana/vim-submode'
+hook_add = 'source ~/.vim/setting/plugins/split.vim'
+

@@ -1,0 +1,82 @@
+# ------ Syntax ------
+[[plugins]]
+repo = 'kchmck/vim-coffee-script'
+on_ft = ['coffee']
+
+[[plugins]]
+repo = 'slim-template/vim-slim'
+on_ft = ['slim']
+
+[[plugins]]
+repo = 'fatih/vim-go'
+on_ft = ['go']
+
+[[plugins]]
+repo = 'elzr/vim-json'
+on_ft = ['json']
+
+[[plugins]]
+repo = 'statianzo/vim-jade'
+on_ft = ['jade']
+
+[[plugins]]
+repo = 'cespare/vim-toml'
+on_ft = ['toml']
+# --------------------
+
+# ------ Unite ------
+[[plugins]]
+repo = 'Shougo/unite.vim'
+on_cmd = ['Unite']
+
+[[plugins]]
+repo = 'Shougo/neomru.vim'
+on_source = ['unite.vim']
+
+[[plugins]]
+repo = 'kmnk/vim-unite-giti'
+on_source = ['unite.vim']
+# --------------------
+
+# ------ 補完 ------
+# [[plugins]]
+# repo = 'Shougo/neocomplcache.vim'
+# on_i = 1
+# hook_add = 'source ~/.vim/setting/plugins/neocomplcache.vim'
+#
+# [[plugins]]
+# repo = 'Shougo/neocomplcache-rsense.vim' # neocomplcacheの設定
+# on_i = 1
+# hook_add = 'source ~/.vim/setting/plugins/rsense.vim'
+# --------------------
+
+# ------ Ruby ------
+[[plugins]]
+repo = 'tpope/vim-endwise'
+on_ft = ['ruby']
+
+[[plugins]]
+repo = 'todesking/ruby_hl_lvar.vim'
+on_ft = ['ruby']
+
+[[plugins]]
+repo = 'vim-scripts/ruby-matchit'
+on_ft = ['ruby']
+
+[[plugins]]
+repo = 'ngmy/vim-rubocop'
+on_ft = ['ruby']
+hook_add = "let g:syntastic_ruby_checkers=['rubocop', 'mri']"
+# --------------------
+
+# ------ Markdown and preview ------
+[[plugins]]
+repo = 'plasticboy/vim-markdown'
+
+[[plugins]]
+repo = 'kannokanno/previm'
+
+[[plugins]]
+repo = 'tyru/open-browser.vim'
+# --------------------
+
