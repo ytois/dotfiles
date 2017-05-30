@@ -1,0 +1,4 @@
+namespace  do
+  task_with_logger  :environment do
+  end
+end

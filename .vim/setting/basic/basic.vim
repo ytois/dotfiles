@@ -61,3 +61,6 @@ endif
 
 " jjでESC
 inoremap <silent> jj <ESC>
+
+" 新規作成時にテンプレートを読み込む
+autocmd BufNewFile *.rake 0r ~/.vim/setting/template/rake.txt
