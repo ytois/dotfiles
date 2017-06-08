@@ -42,3 +42,7 @@ nnoremap sB :<C-u>Unite buffer -buffer-name=file<CR>
 nnoremap sN :<C-u>bn<CR>
 nnoremap sP :<C-u>bp<CR>
 
+" タブ操作
+nnoremap st :<C-u>tabnew<CR>
+nnoremap sn gt
+nnoremap sp gT

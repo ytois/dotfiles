@@ -68,7 +68,7 @@ repo = 'terryma/vim-multiple-cursors'
 # ------ Git ------
 [[plugins]]
 repo = 'tpope/vim-fugitive'
-hook_add = 'autocmd QuickFixCmdPost *grep* cwindow' # grep後にQuickFix表示
+hook_add = 'source ~/.vim/setting/plugins/vim-fugitive.vim'
 
 [[plugins]]
 repo = 'airblade/vim-gitgutter'
@@ -78,3 +78,5 @@ repo = 'airblade/vim-gitgutter'
 repo = 'kana/vim-submode'
 hook_add = 'source ~/.vim/setting/plugins/split.vim'
 
+# [[plugins]] # スムーススクロール
+# repo = 'yonchu/accelerated-smooth-scroll'

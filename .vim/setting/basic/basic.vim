@@ -11,7 +11,11 @@ set clipboard+=unnamed
 syntax on
 set t_Co=256
 set background=dark
+" let g:enable_bold_font = 1
+let g:hybrid_custom_term_colors = 1
+let g:hybrid_reduced_contrast = 1 " Remove this line if using the default palette.
 colorscheme hybrid_material
+" itemr2へ右記カラープリセットを適用する https://github.com/w0ng/vim-hybrid
 
 set expandtab
 set tabstop=2

@@ -72,11 +72,14 @@ hook_add = "let g:syntastic_ruby_checkers=['rubocop', 'mri']"
 # ------ Markdown and preview ------
 [[plugins]]
 repo = 'plasticboy/vim-markdown'
+on_ft = ['markdown']
 
 [[plugins]]
 repo = 'kannokanno/previm'
+on_ft = ['markdown']
 
 [[plugins]]
 repo = 'tyru/open-browser.vim'
+on_ft = ['markdown']
 # --------------------
 
