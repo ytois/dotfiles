@@ -66,5 +66,14 @@ endif
 " jjでESC
 inoremap <silent> jj <ESC>
 
+" Esc Esc でハイライトOFF
+nnoremap <Esc><Esc> :<C-u>set nohlsearch<Return>
+
+" HTMLのタグジャンプ
+source $VIMRUNTIME/macros/matchit.vim
+
 " 新規作成時にテンプレートを読み込む
 autocmd BufNewFile *.rake 0r ~/.vim/setting/template/rake.txt
+
+" 全角チルダの置換コマンド
+command! Rtilde :%s/〜/～/g

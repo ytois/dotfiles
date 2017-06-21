@@ -83,3 +83,10 @@ repo = 'tyru/open-browser.vim'
 on_ft = ['markdown']
 # --------------------
 
+[[plugins]] # SQL formatter
+repo = 'vim-scripts/SQLUtilities'
+on_ft = ['sql', 'no ft']
+
+[[plugins]] # Text format
+repo = 'vim-scripts/Align'
+on_source = ['SQLUtilities']

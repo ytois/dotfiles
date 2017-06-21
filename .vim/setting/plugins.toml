@@ -80,3 +80,4 @@ hook_add = 'source ~/.vim/setting/plugins/split.vim'
 
 # [[plugins]] # スムーススクロール
 # repo = 'yonchu/accelerated-smooth-scroll'
+
