@@ -77,3 +77,9 @@ autocmd BufNewFile *.rake 0r ~/.vim/setting/template/rake.txt
 
 " 全角チルダの置換コマンド
 command! Rtilde :%s/〜/～/g
+
+augroup fileTypeIndent
+  autocmd!
+  autocmd BufNewFile,BufRead *.py setlocal tabstop=4 softtabstop=4 shiftwidth=4
+  autocmd BufNewFile,BufRead *.rb setlocal tabstop=2 softtabstop=2 shiftwidth=2
+augroup END
