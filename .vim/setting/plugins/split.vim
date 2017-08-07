@@ -23,14 +23,14 @@ nnoremap so <C-w>_<C-w>|
 " - 大きさを揃える
 nnoremap s= <C-w>=
 nnoremap sO <C-w>=
-call submode#enter_with('bufmove', 'n', '', 's>', '<C-w>>')
-call submode#enter_with('bufmove', 'n', '', 's<', '<C-w><')
-call submode#enter_with('bufmove', 'n', '', 's+', '<C-w>+')
-call submode#enter_with('bufmove', 'n', '', 's-', '<C-w>-')
-call submode#map('bufmove', 'n', '', '>', '<C-w>>')
-call submode#map('bufmove', 'n', '', '<', '<C-w><')
-call submode#map('bufmove', 'n', '', '+', '<C-w>+')
-call submode#map('bufmove', 'n', '', '-', '<C-w>-')
+" call submode#enter_with('bufmove', 'n', '', 's>', '<C-w>>')
+" call submode#enter_with('bufmove', 'n', '', 's<', '<C-w><')
+" call submode#enter_with('bufmove', 'n', '', 's+', '<C-w>+')
+" call submode#enter_with('bufmove', 'n', '', 's-', '<C-w>-')
+" call submode#map('bufmove', 'n', '', '>', '<C-w>>')
+" call submode#map('bufmove', 'n', '', '<', '<C-w><')
+" call submode#map('bufmove', 'n', '', '+', '<C-w>+')
+" call submode#map('bufmove', 'n', '', '-', '<C-w>-')
 " 閉じる
 nnoremap sq :<C-u>q<CR>
 nnoremap sQ :<C-u>bd<CR>

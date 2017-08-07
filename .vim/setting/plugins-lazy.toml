@@ -16,12 +16,21 @@ repo = 'elzr/vim-json'
 on_ft = ['json']
 
 [[plugins]]
-repo = 'statianzo/vim-jade'
-on_ft = ['jade']
+repo = 'digitaltoad/vim-pug'
+on_ft = ['jade', 'pug']
 
 [[plugins]]
 repo = 'cespare/vim-toml'
 on_ft = ['toml']
+
+[[plugins]]
+repo = 'leafgarland/typescript-vim'
+on_ft = 'typescript'
+
+[[plugins]]
+repo = 'kh3phr3n/python-syntax'
+on_ft = 'python'
+hook_add = "source ~/.vim/setting/plugins/python-syntax.vim"
 # --------------------
 
 # ------ Unite ------
@@ -55,9 +64,10 @@ on_source = ['unite.vim']
 repo = 'tpope/vim-endwise'
 on_ft = ['ruby']
 
-[[plugins]]
-repo = 'todesking/ruby_hl_lvar.vim'
-on_ft = ['ruby']
+# neovimでエラー
+# [[plugins]]
+# repo = 'todesking/ruby_hl_lvar.vim'
+# on_ft = ['ruby']
 
 [[plugins]]
 repo = 'vim-scripts/ruby-matchit'
