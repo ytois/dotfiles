@@ -34,16 +34,14 @@ repo = 'bronson/vim-trailing-whitespace'
 repo = 'itchyny/lightline.vim'
 hook_add = 'source ~/.vim/setting/plugins/lightline.vim'
 
-[[plugins]] # カレント行の関数名表示
+[[plugins]] # 関数一覧/カレント行の関数名表示
 repo = 'majutsushi/tagbar'
 
-# SQL
-# [[plugins]]
-# repo = 'vim-scripts/dbext.vim'
+[[plugins]] # 閉じカッコ補完
+repo = 'cohama/lexima.vim'
 
-# 移動高速化
-# [[plugins]]
-# repo = 'deris/vim-gothrough-jk'
+[[plugins]] # クォート補完
+repo = 'Townk/vim-autoclose'
 
 [[plugins]] # Twitter
 repo = 'vim-scripts/TwitVim'

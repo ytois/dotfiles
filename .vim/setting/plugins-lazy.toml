@@ -17,7 +17,7 @@ on_ft = ['json']
 
 [[plugins]]
 repo = 'digitaltoad/vim-pug'
-on_ft = ['jade', 'pug']
+on_ft = ['jade', 'pug', 'vue']
 
 [[plugins]]
 repo = 'cespare/vim-toml'
@@ -35,12 +35,21 @@ hook_add = "source ~/.vim/setting/plugins/python-syntax.vim"
 [[plugins]]
 repo = 'wavded/vim-stylus'
 on_ft = 'stylus'
+
+[[plugins]]
+repo = 'othree/yajs.vim'
+on_ft = 'javascript'
+
+[[plugins]]
+repo = 'posva/vim-vue'
+on_ft = 'vue'
 # --------------------
 
 # ------ Unite ------
 [[plugins]]
 repo = 'Shougo/unite.vim'
 on_cmd = ['Unite']
+hook_add = "source ~/.vim/setting/plugins/unite.vim"
 
 [[plugins]]
 repo = 'Shougo/neomru.vim'
@@ -48,6 +57,10 @@ on_source = ['unite.vim']
 
 [[plugins]]
 repo = 'kmnk/vim-unite-giti'
+on_source = ['unite.vim']
+
+[[plugins]]
+repo = 'basyura/unite-rails'
 on_source = ['unite.vim']
 # --------------------
 

@@ -7,5 +7,8 @@ let g:syntastic_ruby_checkers = ['rubocop', 'mri']
 " npm i -g jshint
 let g:syntastic_javascript_checkers = ['jshint']
 
+" npm i -g eslint
+" let g:syntastic_javascript_checkers = ['eslint']
+
 " npm i -g coffeelint
 let g:syntastic_coffee_checkers = ['coffeelint']
