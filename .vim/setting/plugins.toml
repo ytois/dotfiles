@@ -12,6 +12,20 @@ hook_add = 'source ~/.vim/setting/plugins/vimshell.vim'
 [[plugins]] # ファイル検索
 repo = "ctrlpvim/ctrlp.vim"
 
+[[plugins]] # ウィンドウのリサイズ
+repo = "simeji/winresizer"
+hook_add = 'let g:winresizer_start_key = "<C-W>r"'
+
+[[plugins]] # バッファ表示
+repo = 'vim-scripts/buftabs'
+hook_add = 'source ~/.vim/setting/plugins/buftabs.vim'
+
+[[plugins]] # バッファ一覧表示
+repo = 'vim-scripts/buffet.vim'
+
+[[plugins]]
+repo = 'thinca/vim-quickrun'
+
 # theme
 # [[plugins]]
 # repo = 'kristijanhusak/vim-hybrid-material'
@@ -37,8 +51,8 @@ hook_add = 'source ~/.vim/setting/plugins/lightline.vim'
 [[plugins]] # 関数一覧/カレント行の関数名表示
 repo = 'majutsushi/tagbar'
 
-[[plugins]] # 閉じカッコ補完
-repo = 'cohama/lexima.vim'
+# [[plugins]] # 閉じカッコ補完
+# repo = 'cohama/lexima.vim'
 
 [[plugins]] # クォート補完
 repo = 'Townk/vim-autoclose'
@@ -82,3 +96,5 @@ hook_add = 'source ~/.vim/setting/plugins/split.vim'
 # [[plugins]] # スムーススクロール
 # repo = 'yonchu/accelerated-smooth-scroll'
 
+[[plugins]]
+repo = 'dhruvasagar/vim-table-mode'

@@ -30,7 +30,10 @@ set smartcase
 set hlsearch
 
 set whichwrap=b,s,h,l,<,>,[,],~
-set cursorline
+
+" set cursorline
+set nocursorline
+
 set showmatch
 source $VIMRUNTIME/macros/matchit.vim
 

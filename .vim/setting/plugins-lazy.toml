@@ -43,6 +43,18 @@ on_ft = 'javascript'
 [[plugins]]
 repo = 'posva/vim-vue'
 on_ft = 'vue'
+
+[[plugins]]
+repo = 'dag/vim-fish'
+on_ft = 'fish'
+
+[[plugins]]
+repo = 'kylef/apiblueprint.vim'
+on_ft = 'apiblueprint'
+
+[[plugins]]
+repo = 'zah/nim.vim'
+on_ft = 'nim'
 # --------------------
 
 # ------ Unite ------
@@ -126,12 +138,19 @@ on_ft = ['markdown']
 
 [[plugins]]
 repo = 'kannokanno/previm'
+# repo = 'suan/vim-instant-markdown'
 on_ft = ['markdown']
 
 [[plugins]]
 repo = 'tyru/open-browser.vim'
 on_ft = ['markdown']
 # --------------------
+
+# ----- Nim -----
+[[plugins]]
+repo = 'zah/nimrod.vim'
+on_ft = ['nim']
+# ----------
 
 [[plugins]] # SQL formatter
 repo = 'vim-scripts/SQLUtilities'
